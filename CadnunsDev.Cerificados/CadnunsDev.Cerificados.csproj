@@ -71,6 +71,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Certificados\" />
     <Folder Include="Scripts\" />
   </ItemGroup>
   <PropertyGroup>
