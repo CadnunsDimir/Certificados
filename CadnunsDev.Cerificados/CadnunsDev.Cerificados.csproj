@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Certificados\certificados.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -65,13 +66,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Certificados\aspnet_intermediario.png" />
+    <Content Include="Certificados\aspnet_intermediario_logo.png" />
+    <Content Include="Certificados\MVA-share-logo.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Certificados\" />
     <Folder Include="Scripts\" />
   </ItemGroup>
   <PropertyGroup>
